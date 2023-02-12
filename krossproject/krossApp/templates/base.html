@@ -1,0 +1,48 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DonateForUkrane</title>
+
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static './css/style.css'%}">
+</head>
+<body>
+
+    <div class="navbar-wrap">
+        <nav class="navbar">
+            <div class="container">
+                <a href="http://127.0.0.1:8000/" class="navbar-brand">ForHonor</a>
+
+                <ul class="navbar-menu">
+                    <h2><a href="https://steamcommunity.com/profiles/76561199115144368/">steam</a></h2>
+                    <h2><a href="https://web.telegram.org/">telegram</a></h2>
+                    <h2><a href="https://vk.com/xzqtion">Vkontakte</a></h2>
+                </ul>
+
+            </div>
+
+    </div>
+
+
+    </nav>
+
+
+    <footer>
+        <p>Copyright &copy;emirlanbalagazov@gmail.com | for honor inc.</p>
+    </footer>
+
+      {% block content %}
+      {% endblock %}
+
+</body>
+</html>
